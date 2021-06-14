@@ -1,0 +1,33 @@
+.signup-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:50vw;
+    position:relative;
+    top:2vh;
+    left:25vw;
+    border-radius:2vh;
+    background-color: #f2f2f2;
+   padding: 30px;
+}
+.signup-labels{
+    align-self: start;
+}
+
+.signup-inputs{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signup-title{
+    font-size:4vh;
+    color:rgb(44, 44, 44)
+
+}
+@media screen and (max-width: 600px)  {
+    .signup-container{
+        width:70vw;
+        left:20vw;
+    }
+}

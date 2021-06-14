@@ -1,0 +1,11 @@
+.squads-container{
+    display:flex;
+    flex-direction:row;
+    width:100v;
+    flex-wrap:Wrap;
+    
+}
+.squads-items{
+    margin:2px;
+     display:inline-block;
+}
